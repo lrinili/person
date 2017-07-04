@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>个人主页</title>
+
+    <!-- Bootstrap -->
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/layout.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+		<div class="top-toolbar">
+		    <div class="div-warp">
+		        <div class="icon-warp">
+		        	<span class="my-icon glyphicon glyphicon-bell"></span>
+		            <img class="my-img" src="./img/redcircle.png" alt=""> 
+		            <span class="my-span">7</span>
+		         </div>
+		        <div class="icon-warp">
+		        	<span class="my-icon glyphicon glyphicon-envelope"></span> 
+		        	<img class="my-img" src="./img/redcircle.png" alt=""> 
+		        	<span class="my-span">13</span>
+		        </div>
+		        <div class="icon-warp last-icon">
+		        	<span class="my-icon glyphicon glyphicon-cog"></span>
+		        </div>
+		    </div>
+		    <div class="user-info">
+		        <div class="img-warp"><img class="my-img" src="./img/head.png" alt=""></div>
+		        <div class="info">
+		            <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="name" ng-bind="user.user_name"></span> <span class="glyphicon glyphicon-triangle-bottom"></span></div>
+		            <ul class="dropdown-menu dropdown-menu-right" style="margin-top:0">
+		                <li><a href="#">个人资料</a></li>
+		                <li><a href="#">修改密码</a></li>
+		                <li class="divider"></li>
+		                <li>登出</a></li>
+		            </ul>
+		        </div>
+		    </div>
+		</div>
+     
+<!-- 导航页之下   -->
+
+		<div class="right-content">
+		    <div class="content-wrapper">	 
+                <div id="main">
+                	<div id="body">
+                	    
+                       <div class="left-aside">
+	                       	<div  class="inner profile-inner" >
+                                  <div class="base-info profile-block">
+                                  	<img src="./img/b20.jpg" alt="头像" id='avatar'>
+                                  	<h2 class="name"> Irini
+                                     <span>(男)</span>
+                                  	</h2>
+                                  	<div class="model-post">
+                                  	    <div>信息服务中心</div>                                     
+                                  	</div>
+
+                                  </div>
+			                       	<div class="article-info profile-block">
+			                       		<div class="article-info-block-left">
+			                       			<span>
+			                       				邮件：<span class="info-word"> 13</span> <span class="tip">(未读)</span>
+			                       			</span>
+			                       		</div>
+			                       		<div class="article-info-block-right">
+			                       			<span>
+			                       				图书：<span class="info-word"> 1</span> <span  class="tip">(待还)</span>
+			                       			</span>
+			                       		</div>
+			                       		
+			                       	</div>
+			                       	<div>
+			                       		图书信息
+			                       	</div>
+
+
+
+
+	                       	</div>
+
+                       </div>
+					   <div class="middle-aside">
+					   	
+					   </div>
+                       <div class="right-aside">
+                       	
+                       </div>
+
+
+                	</div>
+                </div>
+				<div id="left"></div>
+
+                 <div id="right"></div>
+
+
+		    </div>
+		</div>
+	
+
+
+
+
+
+
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
