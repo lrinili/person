@@ -1,3 +1,18 @@
+html{
+   height: 100%
+}
+  #login{
+    /*background: -webkit-linear-gradient( top,#0e3969,#2581ba);*/
+    /*background: -moz-linear-gradient( top,#0e3969,#2581ba);*/
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height: 100%;
+    width:100%;
+  }
+
 #login .login-title {
     width: 100%;
     height: 95px;
@@ -8,12 +23,26 @@
 }
 .login_main{
 	width: 390px;
-	padding: 20px
+	padding: 20px;
+    border-radius: 5px;
+    border: 1px solid  #ddd;
+    background: #eee;
+    opacity:0.5;
 }
 .login_main_header span{
 	font-size: 25px;
-	color:#50ae55
+	color:#337ab7
 }
 .login_main_form{
 	margin-top: 30px
+}
+.checkNum{
+  position:absolute;
+  display: inline-block;
+  color: #00a0d4;
+  font-size: 12px;
+  margin-left: 18px;
+  top:24px;
+  right:0;
+  cursor:pointer
 }
